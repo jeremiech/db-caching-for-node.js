@@ -1,0 +1,25 @@
+{
+  "name": "db-cachin",
+  "version": "1.0.0",
+  "description": "for db caching ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiech/db-caching-for-node.js.git"
+  },
+  "author": "Jeremie Niyo--",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiech/db-caching-for-node.js/issues"
+  },
+  "homepage": "https://github.com/jeremiech/db-caching-for-node.js#readme",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.20"
+  }
+}
